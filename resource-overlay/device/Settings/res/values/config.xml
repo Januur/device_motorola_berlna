@@ -6,4 +6,8 @@
 <resources>
     <!-- Whether to show a preference item for regulatory information in About phone -->
     <bool name="config_show_regulatory_info">true</bool>
+
+    <!-- Custom Maintainer -->
+    <string name="build_maintainer_summary" translatable="false">Deivid Ignacio Parra (Deivid21)</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://www.paypal.com/paypalme/Deivid21</string>
 </resources>
