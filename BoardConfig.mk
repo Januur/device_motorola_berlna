@@ -5,8 +5,8 @@
 
 DEVICE_PATH := device/motorola/berlna
 
-# Inherit from motorola sm7325-common
-include device/motorola/sm7325-common/BoardConfigCommon.mk
+# Inherit from motorola sm8350-common
+include device/motorola/sm8350-common/BoardConfigCommon.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := berlna

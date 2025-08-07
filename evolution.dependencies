@@ -1,7 +1,7 @@
 [
   {
-    "repository": "device_motorola_sm7325-common",
-    "target_path": "device/motorola/sm7325-common",
+    "repository": "device_motorola_sm8350-common",
+    "target_path": "device/motorola/sm8350-common",
     "remote": "evo-devices"
   },
   {
