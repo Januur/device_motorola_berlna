@@ -41,12 +41,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.berlna \
-
-$(foreach f,$(wildcard $(LOCAL_PATH)/configs/idc/*.idc),\
-        $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/usr/idc/$(notdir $f)))
-$(foreach f,$(wildcard $(LOCAL_PATH)/configs/keylayout/*.kl),\
-        $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/$(notdir $f)))
+    android.hardware.biometrics.fingerprint@2.1-service.berlna
 
 # Init
 PRODUCT_PACKAGES += \

@@ -246,6 +246,12 @@ vendor/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.
 vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml
 vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml
 
+# Fingerprint - configs
+vendor/usr/idc/uinput-egis.idc
+vendor/usr/idc/uinput_nav.idc
+vendor/usr/keylayout/uinput-egis.kl
+vendor/usr/keylayout/uinput_nav.kl
+
 # Fingerprint (goodix)
 vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/libgf_ca.so
