@@ -9,5 +9,11 @@
     "target_path": "vendor/motorola/berlna",
     "remote": "github-non-los",
     "branch": "lineage-22.2"
+  },
+  {
+    "repository": "Deivid-21s-Sources/proprietary_vendor_motorola_berlna-radio",
+    "target_path": "vendor/motorola/berlna-radio",
+    "remote": "gitlab",
+    "branch": "lineage-22.2"
   }
 ]

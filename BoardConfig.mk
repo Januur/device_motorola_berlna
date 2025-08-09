@@ -47,3 +47,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 37
 
 # inherit from the proprietary version
 include vendor/motorola/berlna/BoardConfigVendor.mk
+include vendor/motorola/berlna-radio/BoardConfigVendor.mk
