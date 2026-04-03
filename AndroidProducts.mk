@@ -1,7 +1,3 @@
-#
-# SPDX-FileCopyrightText: The LineageOS Project
-# SPDX-License-Identifier: Apache-2.0
-#
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/evolution_berlna.mk
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_berlna.mk
+COMMON_LUNCH_CHOICES := evolution_berlna-userdebug evolution_berlna-user
